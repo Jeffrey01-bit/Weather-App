@@ -1,0 +1,15 @@
+{
+  "client": {
+    "source": "weather-app",
+    "plugin": "zcatalyst-cli-plugin-react",
+    "build": {
+      "path": "build"
+    },
+    "routes": [
+      {
+        "source": "/*",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
